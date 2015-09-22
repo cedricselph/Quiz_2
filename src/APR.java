@@ -43,7 +43,7 @@ public class APR {
 		
 		PMT=FinanceLib.pmt(r_2, n_2, p_2, f_2, t_2);
 		
-		System.out.print(PMT);
+		System.out.print(Math.abs(PMT));
 		
 		
 		
